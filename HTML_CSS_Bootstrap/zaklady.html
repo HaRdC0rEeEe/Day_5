@@ -1,0 +1,688 @@
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Petr Pospíšil" />
+    <meta name="description" content="Přehled HTML tagů" />
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style_zaklady.css">
+
+    <title>HTML tagy</title>
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Martian+Mono:wght@400;800&family=Montserrat:ital,wght@1,200&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@800&family=Montserrat:ital,wght@1,200&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@400;800&family=Montserrat:ital,wght@1,200&display=swap');
+    </style>
+
+    <script src="scripts.js"></script>
+</head>
+
+
+<body>
+
+    <header>
+        <h1>HTML tagy</h1>
+        <div>
+            <h2>Prikladová stránka s HTML tagy</h2>
+        </div>
+
+        <nav>
+            <h2>Menu</h2>
+            <p>zde bude navigace</p>
+        </nav>
+    </header>
+
+    <aside class="sub_menu">
+        <h2>Na teto stránce</h2>
+        <nav>
+            <h3>Nadpis</h3>
+            <p>zde bude navigace</p>
+        </nav>
+    </aside>
+
+    <main>
+        <section id="typography">
+            <h2>Typography</h2>
+            <article>
+                <section>
+                    <h2>Odstavec</h2>
+                    <p class="first-paragraph">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
+                        temporibus expedita nesciunt eaque eveniet! Laudantium
+                        reprehenderit amet dicta sunt, sed, quos placeat blanditiis odit
+                        dolorem veniam perferendis tempora a aperiam.
+                    </p>
+                </section>
+
+                <section>
+                    <h2>Zalomení</h2>
+                    <p class="zalomeni">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
+                        temporibus expedita nesciunt eaque eveniet!<br />
+                        Laudantium reprehenderit amet dicta sunt, sed, quos placeat
+                        blanditiis odit dolorem veniam perferendis tempora a aperiam.
+                    </p>
+                </section>
+            </article>
+
+            <section>
+                <h3>Nadpisy</h3>
+                <article class="reset">
+                    <h1>Nadpis 1.</h1>
+                    <p class="h1-p">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Distinctio odit, maiores et ullam saepe fuga omnis porro itaque
+                        labore praesentium?
+                    </p>
+                    <h2>Nadpis 2.</h2>
+                    <p class="h2-p">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
+                        culpa officia distinctio sit quod itaque nobis odio iusto illo
+                        consequatur!
+                    </p>
+                    <h3>Nadpis 3.</h3>
+                    <p class="h3-p">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At ipsam
+                        alias similique maiores animi eveniet ut consequatur possimus
+                        accusamus nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quidem magnam
+                        porro quam ad ea illum, assumenda blanditiis unde praesentium incidunt nostrum id officia
+                        voluptatibus recusandae eius quo qui dignissimos quisquam similique reiciendis. Ex
+                        exercitationem accusantium quam voluptatem, consequuntur soluta, delectus eligendi asperiores
+                        placeat maxime dignissimos et, repudiandae dolorem dolores harum magnam suscipit. Voluptas iure
+                        cumque voluptatibus nihil illo? Ab!
+                    </p>
+                    <div class="h4-div">
+                        <h4>Nadpis 4.</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi
+                            doloribus expedita tempora assumenda quis alias, libero cumque
+                            earum blanditiis optio.
+                        </p>
+                    </div>
+                    <h5>Nadpis 5.</h5>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam,
+                        maxime. Provident sapiente commodi similique enim doloremque
+                        repellendus, nihil dolor. Debitis.
+                    </p>
+                    <h6>Nadpis 6.</h6>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Cupiditate, alias exercitationem aut numquam molestias mollitia
+                        unde reiciendis dolorem earum omnis.
+                    </p>
+                </article>
+            </section>
+
+            <section>
+                <article id="article">
+                    <h3>Článek</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit
+                        itaque corporis neque laudantium pariatur fugiat voluptatibus
+                        totam possimus consectetur similique.
+                    </p>
+                    <footer>
+                        <small>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Voluptates voluptatem esse, fuga molestias obcaecati veniam
+                            natus totam. Omnis, officiis ipsa.
+                        </small>
+                        <br />
+                        <br />
+                    </footer>
+                </article>
+            </section>
+
+            <section>
+                <hr />
+                <address>
+                    test.cz s.r.o.
+                    <br />
+                    Ulice 123,
+                    <br />
+                    Město Czechia
+                </address>
+                <hr />
+            </section>
+
+            <section>
+                <h4>Span</h4>
+                <p>
+                    Lorem
+                    <span class="red" style="color: red">
+                        ipsum dolor sit amet consectetur adipisicing elit.</span>
+                    Mollitia, sapiente.
+                </p>
+            </section>
+
+            <section>
+                <h4>Prvky ovlivňující design</h4>
+                <div class="column">
+                    <p><b>Bold</b></p>
+                    <p><i>Italics</i></p>
+                    <p><u>Underline</u></p>
+                    <p><s>Strikethrough</s></p>
+                    <p><ins>Inserted</ins></p>
+                    <p><small>Small</small></p>
+                    <p>Text<sub>Sub</sub></p>
+                    <p>Text<sup>Sup</sup></p>
+                    <p>
+                        <abbr title="title" data-tooltip="data tooltip">Abbr</abbr>
+                    </p>
+                    <p><kbd>Kbd</kbd></p>
+                    <p>
+                        <mark>Mark</mark>
+                    </p>
+                </div>
+            </section>
+
+            <section>
+                <pre>
+					Lorem ipsum dolor sit amet 
+					consectetur adipisicing elit. Necessitatibus excepturi rerum impedit in,               veritatis expedita pariatur 
+					voluptas harum perferendis consequatur!
+				</pre>
+
+            </section>
+
+            <section>
+                <h6>Citace</h6>
+                <figure>
+                    <blockquote>
+                        <p>It was a bright cold day in April, and the clocks were striking thirteen.</p>
+                        <footer>Někdo slavný <cite title="Source Title">Zdroj</cite>
+                    </blockquote>
+
+                    <div class="half-circle"> </div>
+
+                    </footer>
+                </figure>
+            </section>
+
+            <section>
+
+                <!-- <cite> je pro citování díla -->
+                <!-- q cite="URL" je pro citování s linknutým odkazem na source -->
+                <h4>Cite</h4>
+
+                <p>
+                    <q cite="https://cs.wikipedia.org/wiki/Rumcajs">To je výborné, moc se ti to povedlo</q>
+                    vykřikla Manka.
+                </p>
+            </section>
+
+            <section>
+                <p>Informace o HTML jsou použity z referenční přírůčky <q cite="https://www.w3.org/">W3 Standard for
+                        HTML.</q>
+                </p>
+            </section>
+
+            <section>
+                <h4>figure a figcaption</h4>
+
+                <!-- figure zabaluje blok s vysvětlením (figcaption) a citací (cite) -->
+                <figure>
+                    <blockquote>
+                        <p>
+                            Chápu JAK; nechápu PROČ.
+                        </p>
+                    </blockquote>
+                    <!-- vysvětlující část figury -->
+                    <figcaption>
+                        <cite><a href="www.george-orwell.org/1984"> 1984</a></cite>
+                        , George Orwell
+                    </figcaption>
+                </figure>
+            </section>
+
+            <section>
+                <p>Funkce <code>sayHello()</code> Vás pozdraví</p>
+            </section>
+
+        </section>
+
+        <section id="lists">
+            <h2>Seznamy</h2>
+            <h3>Neuspořádaný</h3>
+            <section>
+
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur.</li>
+                    <li>Facilis praesentium voluptatibus cupiditate quas ad.</li>
+                    <li>Exercitationem numquam quibusdam dolorem nesciunt similique!</li>
+                    <li>Quod minima qui tenetur ipsum cupiditate!</li>
+                </ul>
+            </section>
+
+
+            <section>
+                <h3>Uspořádaný</h3>
+                <ol reversed type="I">
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, explicabo!</li>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, in!</li>
+                    <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, repudiandae.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, autem!</li>
+                </ol>
+            </section>
+
+
+            <section>
+                <h4>Seznam definic</h4>
+                <dl>
+                    <dt>První termín</dt>
+                    <dd>Výklad prvního termínu</dd>
+                    <dt>Druhý termín</dt>
+                    <dd>Výklad druhého termínu</dd>
+                </dl>
+
+            </section>
+
+
+        </section>
+
+        <section id="table">
+            <h3>Tabulky</h3>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>buňka 1</td>
+                        <td>buňka 2</td>
+                        <td>buňka 3</td>
+                        <td>buňka 4</td>
+                        <td>buňka 5</td>
+                        <td>buňka 6</td>
+                    </tr>
+                    <tr>
+                        <td>buňka 1</td>
+                        <td>buňka 2</td>
+                        <td>buňka 3</td>
+                        <td>buňka 4</td>
+                        <td>buňka 5</td>
+                        <td>buňka 6</td>
+                    </tr>
+                    <tr>
+                        <td>buňka 1</td>
+                        <td>buňka 2</td>
+                        <td>buňka 3</td>
+                        <td>buňka 4</td>
+                        <td>buňka 5</td>
+                        <td>buňka 6</td>
+                    </tr>
+                    <tr>
+                        <td>buňka 1</td>
+                        <td>buňka 2</td>
+                        <td>buňka 3</td>
+                        <td>buňka 4</td>
+                        <td>buňka 5</td>
+                        <td>buňka 6</td>
+                    </tr>
+                    <tr>
+                        <td>buňka 1</td>
+                        <td>buňka 2</td>
+                        <td>buňka 3</td>
+                        <td>buňka 4</td>
+                        <td>buňka 5</td>
+                        <td>buňka 6</td>
+                    </tr>
+                    <tr>
+                        <td>buňka 1</td>
+                        <td>buňka 2</td>
+                        <td>buňka 3</td>
+                        <td>buňka 4</td>
+                        <td>buňka 5</td>
+                        <td>buňka 6</td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+            <hr>
+
+
+            <table class="second-table">
+                <thead>
+                    <tr>
+                        <th>buňka 1</th>
+                        <th>buňka 2</th>
+                        <th colspan="2">buňka 3</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td rowspan="2">buňka 1</td>
+                        <td>buňka 2</td>
+                        <td>buňka 3</td>
+                        <td>buňka 4</td>
+                    </tr>
+                    <tr>
+                        <td>buňka 2</td>
+                        <td>buňka 3</td>
+                        <td>buňka 4</td>
+                    </tr>
+                    <tr>
+                        <td>buňka 1</td>
+                        <td>buňka 2</td>
+                        <td>buňka 3</td>
+                        <td>buňka 4</td>
+                    </tr>
+                    <tr>
+                        <td>buňka 1</td>
+                        <td>buňka 2</td>
+                        <td>buňka 3</td>
+                        <td>buňka 4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+        <section class="media">
+            <h3>Média</h3>
+            <article>
+                <section>
+                    <h4>SVG</h4>
+                    <svg width="100%" height="250px">
+                        <rect width="100%" height="250px" fill="gray"></rect>
+                        <text x="50%" y="50%" fill="white" text-anchor="middle" dominant-baseline="middle">
+                            Responzivní SVG
+                        </text>
+                    </svg>
+                </section>
+            </article>
+        </section>
+
+
+    </main>
+
+
+
+    <!-- DAY 2 -->
+
+
+    <section>
+        <svg width="200px" height="200px" style="border: 1px solid #444">
+
+            <rect width=150px height=100px fill="black" stroke="red" stroke-width=10px x="20" y="30"></rect>
+            <circle r=50 cx="100" cy="100" fill="silver" stroke="red" stroke-width=10px></circle>
+
+        </svg>
+    </section>
+
+
+    <section>
+        <h4>Obrazek</h4>
+        <figure>
+            <img src="https://source.unsplash.com/x_5ofu-xTXM/" alt="circles" width="400px" height="200px"
+                title="Popis obrázku">
+
+            <figcaption>Popis obrázku</figcaption>
+        </figure>
+    </section>
+
+
+    <!-- <section>
+        <h4>Picture</h4>
+        <picture>
+            <source media="(min-width:800px)" srcset="https://source.unsplash.com/x_5ofu-xTXM/1000x400">
+            <source media="(min-width:600px)" srcset="https://source.unsplash.com/uz8-jbwJeC4/600x400">
+            <img src="https://source.unsplash.com/SsfIl_7dU4U/400x400" alt="Popis obrázku">
+        </picture>
+
+
+    </section>  -->
+
+
+    <!-- <section>
+        <h4>Youtube video</h4>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/tRvmyNt09n8" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OEV8gMkCHXQ" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+    </section> -->
+
+
+    <main>
+        <section class="links">
+            <h4>Odkazy a tlačítka</h4>
+            <article>
+                <section>
+                    <h5>Odkazy</h5>
+                    <ul>
+                        <li><a href="seznam.cz" class="primary-link">Primarni odkaz</a></li>
+                        <li><a href="#" class="secondary-link">Sekundární odkaz</a></li>
+                        <li><a href="#" class="contrast-link">Kontrastni odkaz</a></li>
+                    </ul>
+                </section>
+            </article>
+        </section>
+
+        <section id="tlacitka">
+            <h4>Tlacitka</h4>
+            <div>
+
+                <a href="https://www.seznam.cz/" target="_blank">
+                    <input type="button" value="Primární" width="100px" height="80px" class="primary">
+                </a>
+
+                <input type="button" value="Sekundární" class="secondary" width="100px" height="80px">
+                <input type="button" value="Kontrastni" class="contrast" width="100px" height="80px">
+            </div>
+
+            <div>
+                <input type="button" value="Primární outline" width="100px" height="80px" class="primary outline">
+                <input type="button" value="Sekundární outline" class="secondary outline" width="100px" height="80px">
+                <input type="button" value="Kontrastni outline" class="contrast outline" width="100px" height="80px">
+            </div>
+        </section>
+    </main>
+
+
+    <main>
+        <section class="forms newsletter">
+            <h4>Formuláře</h4>
+            <section>
+                <article>
+                    <h5>Formulář pro odběr novinek</h5>
+                    <form name="form-1">
+                        <input type="text" name="text" placeholder="Křestní jméno" required>
+                        <input type="email" name="email" placeholder="Email" required id="">
+                        <input type="checkbox" name="checkbox" checked id="checkbox">
+                        <label for="checkbox">Souhlasím</label>
+                        <input type="submit" id="submit" value="Odebírat">
+                    </form>
+                </article>
+            </section>
+
+            <section>
+                <h4>Checkboxy</h4>
+                <fieldset>
+                    <legend>Zaškrtávací políčka</legend>
+                    <label for="chck1">Položka 1</label>
+                    <input type="checkbox" name="checkbox1" id="checkbox">
+                    <label for="chck2">Položka 2</label>
+                    <input type="checkbox" name="checkbox2" id="checkbox">
+                </fieldset>
+
+
+            </section>
+
+        </section>
+    </main>
+
+
+    <fieldset>
+        <legend>Přepínací tlačítka</legend>
+        <label for="radio-1">Souhlasím</label>
+        <input type="radio" name="radio" value="" id="radio-1">
+        <label for="radio-1">Nesouhlasím</label>
+        <input type="radio" name="radio" value="" id="radio-2">
+    </fieldset>
+
+
+    <fieldset>
+        <legend>Switches</legend>
+        <label for="switch-1">Switch</label>
+        <input type="checkbox" name="radio" value="" id="switch-1" role="switch">
+        <label for="switch-1">Switch</label>
+        <input type="checkbox" name="radio" value="" id="switch-2" role="switch">
+    </fieldset>
+
+
+    <section>
+        <h4>Výběr</h4>
+        <label for="zvirata">Vyberte zvířátko:</label>
+        <select name="zvirata" id="mazlicci">
+            <option value="Pes">Pes</option>
+            <option value="Kočka">Kočka</option>
+            <option value="Křeček" selected>Křeček</option>
+            <option value="Papoušek">Papoušek</option>
+            <option value="Želva">Želva</option>
+            <option value="Rybičky">Rybičky</option>
+        </select>
+    </section>
+
+
+    <section>
+        <label for="food">Oblíbené jídlo:</label>
+        <select name="food" id="food" multiple size="4">
+            <optgroup label="Omáčky">
+                <option value="Svíčková">Svíčková</option>
+                <option value="Koprovka">Koprovka</option>
+                <option value="Zelí" disabled>Zelí</option>
+            </optgroup>
+            <optgroup label="Smažené">
+                <option value="Řízek">Řízek asdgas</option>
+                <option value="Smažák">Smažák asdga</option>
+            </optgroup>
+        </select>
+    </section>
+
+
+    <section>
+        <label for="zelenina">Vyberte zeleninu:</label>
+        <input type="text" name="zelenina" id="zelenina" list="seznam-zeleniny">
+        <datalist id="seznam-zeleniny">
+            <option value="mrkev">Mrkev je dobrá</option>
+            <option value="cibule">cibule</option>
+            <option value="petržel">petržel</option>
+        </datalist>
+    </section>
+
+
+    <section>
+        <h4>MIX prvků</h4>
+
+        <form action="get">
+
+            <label for="txtarea">Textové pole:</label>
+            <textarea rows="3" cols="30" name="txtarea">Předvyplněný text</textarea>
+            <hr />
+
+            <label for="text">Text</label>
+            <input type="text" name="text" id="" placeholder="Text" />
+            <hr />
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="pass" placeholder="heslo" />
+            <hr />
+
+            <label for="hledani">Hledat</label>
+            <input type="text" name="hledani" id="search" placeholder="Hledat" />
+            <hr />
+
+            <input type="email" name="hledani" id="email" placeholder="Email" />
+            <label for="email">Napiš mi</label>
+        </form>
+        <hr />
+
+    </section>
+
+
+    <section>
+        <form action="get">
+            <label for="Datum">Datum</label>
+            <input type="date" name="Datum" id="date" />
+            <hr />
+
+            <label for="time">Čas</label>
+            <input type="time" name="Čas" id="time" />
+            <hr />
+
+            <label for="time">Barva</label>
+            <input type="color" name="Barva" id="color" value="#f6b73c" />
+            <hr />
+
+            <label for="Soubory">Soubory</label>
+            <input type="file" name="Soubory" id="file" />
+            <hr />
+
+            <label for="range">Posuvník rozsahu</label>
+            <input type="range" name="Posuvník rozsahu" id="range" min="0" max="100" value="90" />
+            <hr />
+        </form>
+    </section>
+
+
+    <section id="rest">
+        <h4>Ostatni</h4>
+        <article>
+            <section class="accordions">
+                <h3>Accordions</h3>
+                <details>
+                    <summary>A1</summary>
+
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat assumenda ullam optio omnis,
+                        unde magni. Labore, esse. Voluptatem odit quasi nobis eum soluta in magni! Earum asperiores vel
+                        fuga impedit ipsa, recusandae, doloremque quaerat provident quisquam dolores delectus. Beatae
+                        quis amet incidunt recusandae dolores cupiditate, expedita dolore quasi sint dignissimos.</p>
+                </details>
+                <details>
+                    <summary>A2</summary>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, minus!</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, commodi?</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, impedit.</li>
+                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, unde.</li>
+                    </ul>
+                </details>
+
+            </section>
+        </article>
+
+        <section>
+            <h4>Progress bar</h4>
+            <label>Zaplnění disku: <progress max="100" value="25"></progress>
+            </label>
+            <label>Nahrávání souboru: <progress></progress></label>
+
+        </section>
+
+
+
+    </section>
+
+
+    <section>
+        <h4>Meter</h4>
+
+        <label for="">Znečištění ovzduší:
+            <meter value="30" low="30" high="50" optimum="10" max="100">
+        </label>
+    </section>
+
+
+    <footer>Sestaveno &copy; Petr Pospíšil rok 2023</footer>
+
+</body>
+
+</html>
