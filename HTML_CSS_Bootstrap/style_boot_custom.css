@@ -1,0 +1,7 @@
+.container>* {
+    outline: 2px solid black;
+}
+
+.box {
+    min-height: 50px;
+}
