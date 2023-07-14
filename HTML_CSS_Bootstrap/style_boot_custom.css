@@ -1,7 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .container>* {
-    outline: 2px solid black;
+    /* outline: 2px solid black; */
 }
 
 .box {
     min-height: 50px;
+    font-size: 0.6rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.px400-bg {
+    width: 400px;
+    height: 400px;
+    background-color: grey;
+}
+
+.text-transparent {
+    color: gray;
+}
+
+.rem2 {
+    font-size: 2rem;
+}
+
+.progress-bar {
+    color: blue;
+    font-size: 1.1rem;
+    font-family: Consolas;
+    font-weight: bold;
+    outline: 3px solid rgb(6, 255, 55);
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 7rem;
+    background-color: rgba(0, 0, 0, 0.294);
+    color: black;
+    text-decoration: none;
+}
+
+.icon>svg:hover {
+    stroke: #2bbfffa4;
+    stroke-width: 1px;
+    transform: translateX(30px);
+    transition-duration: 0.5s;
+
+
 }
